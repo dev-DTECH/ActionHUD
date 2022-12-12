@@ -1,0 +1,45 @@
+format: "%actionhud_health%%actionhud_text_health% %actionhud_mana%"
+refresh-rate: 1
+hud:
+  health:
+    current: "%player_health%"
+    max: "%player_max_health%"
+    frames:
+      0: "\uF000"
+      1: "\uF001"
+      2: "\uF002"
+      3: "\uF003"
+      4: "\uF004"
+      5: "\uF005"
+      6: "\uF006"
+      7: "\uF007"
+      8: "\uF008"
+      9: "\uF009"
+      10: "\uF00A"
+      11: "\uF00B"
+      12: "\uF00C"
+      13: "\uF00D"
+      14: "\uF00E"
+  mana:
+    current: "%aureliumskills_mana_int%"
+    max: "%aureliumskills_mana_max%"
+    frames:
+      0: "\uF100"
+      1: "\uF101"
+      2: "\uF102"
+      3: "\uF103"
+      4: "\uF104"
+      5: "\uF105"
+      6: "\uF106"
+      7: "\uF107"
+      8: "\uF108"
+      9: "\uF109"
+      10: "\uF10A"
+      11: "\uF10B"
+      12: "\uF10C"
+      13: "\uF10D"
+      14: "\uF10E"
+text:
+  health:
+    text: "%player_health_rounded%/%player_max_health%"
+    offset: 65280

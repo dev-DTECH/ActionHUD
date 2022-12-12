@@ -1,0 +1,14 @@
+name: ActionHUD
+version: '${project.version}'
+main: dev.dtech.actionhud.ActionHUD
+api-version: 1.19
+
+depend:
+  - ProtocolLib
+  - PlaceholderAPI
+
+commands:
+  ahudreload:
+    description: Action HUD configuration reload
+    usage: /ahudreload
+    permission: actionhud.reload
